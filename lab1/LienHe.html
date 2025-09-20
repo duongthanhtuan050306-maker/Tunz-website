@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Frozen Yogurt - Liên Hệ</title>
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img id="logo" src="images/logo.png" alt="Logo Frozen Yogurt" />
+    </a>
+    <nav>
+      <a href="index.html">Trang Chủ</a>
+      <a href="GioiThieu.html">Giới Thiệu</a>
+      <a href="SanPham.html">Sản Phẩm</a>
+      <a href="TinTuc.html">Tin Tức</a>
+      <a href="DangNhap.html">Đăng Nhập</a>
+      <a href="DangKy.html">Đăng Ký</a>
+      <a href="LienHe.html">Liên Hệ</a>
+    </nav>
+  </header>
+
+ <main>
+    <h1>Liên Hệ</h1>
+    <img src="images/lienhe/check-in.png" alt="Vị Trí" width="100" />
+
+    <h1>Địa chỉ: 0123, Tòa Nhà ABC, TP. Cần Thơ</h1>
+    <p>Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới. Xin cám ơn.</p>
+
+    <form method="post" enctype="application/x-www-form-urlencoded"></form>
+      <fieldset>
+         <legend>Góp ý</legend>
+         <table>
+          <tr>
+            <td><label for="hoten">Họ Tên:</label></td>
+            <td><input type="text" id="hoten" name="hoten" placeholder="Vui lòng nhập Họ tên của bạn"></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="text" id="email" name="email" placeholder="Vui lòng nhập địa chỉ Email"></td>
+          </tr>
+          <tr>
+            <td><label for="chude">Chủ đề:</label></td>
+            <td>
+              <select id="chude" name="chude" size="1">
+                <option>Về Sản Phẩm/ Dịch Vụ</option>
+                <option>Về Ưu Đãi Thành Viên</option>
+                <option>Về Tin Tuyển Dụng</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><label for="noidung">Nội dung:</label></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <textarea id="noidung" name="noidung" rows="7" cols="50" placeholder="Nội dung cần liên hệ"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center;">
+              <input type="submit" value="Gửi">
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2021 Bản quyền thuộc về FreeezeVN.
+      <a href="https://facebook.com">facebook</a>
+      <a href="https://twitter.com">twitter</a>
+      <a href="https://pinterest.com">pinterest</a>
+      <a href="#logo">Về Đầu Trang</a>
+    </p>
+  </footer>
+</body>
+</html>

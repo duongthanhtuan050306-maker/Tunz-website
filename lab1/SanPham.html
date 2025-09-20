@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Frozen Yogurt - Sản Phẩm</title>
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img id="logo" src="images/logo.png" alt="Logo Frozen Yogurt" style="height:50px;" />
+    </a>
+    <nav>
+      <a href="index.html">Trang Chủ</a>
+      <a href="GioiThieu.html">Giới Thiệu</a>
+      <a href="SanPham.html">Sản Phẩm</a>
+      <a href="TinTuc.html">Tin Tức</a>
+      <a href="DangNhap.html">Đăng Nhập</a>
+      <a href="DangKy.html">Đăng Ký</a>
+      <a href="LienHe.html">Liên Hệ</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Sản Phẩm Truyền Thống</h1>
+    <article class="product">
+      <img src="images/sanpham/kiwi.jpg" alt="Sữa chua Kiwi" width="250">
+      <h2>Sữa Chua Vị Kiwi</h2>
+      <p>
+        Hương vị thơm ngon của trái Kiwi xanh, nổi tiếng của đất nước New Zealand có<br>
+        trong Sữa chua vị Kiwi xanh đem đến một món ăn nhẹ Siêu ngon và tốt cho hệ tiêu<br>
+        hóa.
+        <span id="more-text" style="display:none;">
+          Ngoài ra, sữa chua còn giúp tiêu hóa tốt và tăng cường sức khỏe.
+        </span>
+        <a href="javascript:void(0);" id="toggle-btn" onclick="toggleText()">Xem thêm</a>
+      </p>
+      <label>Số Lượng: </label>
+      <span>
+        <input type="number" min="0" max="100" value="0" size="3">
+        <button>Đặt hàng</button>
+      </span>
+    </article>
+
+    <article class="product">
+      <h2>Sữa Chua Vị Xoài</h2>
+      <img src="images/sanpham/mango.jpg" alt="Sữa chua Xoài" width="250">
+      <p>
+        Sữa chua xoài thích hợp cho mọi lứa tuổi, vì vậy hãy để cả gia đình quây quần bên<br>
+        nhau cùng thưởng thức món ăn thơm ngon., bổ dưỡng này. 
+        <span id="more-text2" style="display:none;">
+          Ngoài ra, còn giúp tiêu hóa tốt và tăng cường sức khỏe.
+        </span>
+        <a href="javascript:void(0);" id="toggle-btn2" onclick="toggleText2()">Xem thêm</a>
+      </p>
+      <label>Số Lượng: </label>
+      <span>
+        <input type="number" min="0" max="100" value="0" size="3">
+        <button>Đặt hàng</button>
+      </span>
+    </article>
+
+    <article class="product">
+      <h2>Sữa Chua Vị Dưa lưới</h2>
+      <img src="images/sanpham/cantaloupe.jpg" alt="Sữa chua Dưa lưới" width="250">
+      <p>
+        Trong dưa lưới chứa nhiều vitamin C, có tác dụng làm đẹp da hiệu quả. Phụ nữ ăn<br>
+         sinh tố dưa lưới thường xuyên sẽ có làn da min màng.
+        <span id="more-text3" style="display:none;">
+          Ngoài ra, còn giúp tiêu hóa tốt và tăng cường sức khỏe.
+        </span>
+        <a href="javascript:void(0);" id="toggle-btn3" onclick="toggleText3()">Xem thêm</a>
+      </p>
+      <label>Số Lượng: </label>
+      <span>
+        <input type="number" min="0" max="100" value="0" size="3">
+        <button>Đặt hàng</button>
+      </span>
+    </article>
+
+    <h1>Sản Phẩm Mới</h1>
+
+    <article class="product">
+      <h2>Sữa Chua Vị Mâm Xôi</h2>
+      <img src="images/sanpham/blackberry.jpg" alt="Sữa chua Mâm Xôi" width="250">
+      <p>
+        Quả mâm xôi là loại quả ăn họ hồng, có nguồn gốc từ châu Âu, Bắc Á và được<br>
+        trồng ở các vùng ôn đới trên toàn thế giới. Có nhiều loại bao gồm đen, tím và<br>
+        vàng.
+        <span id="more-text4" style="display:none;">
+          Ngoài ra, còn giúp tiêu hóa tốt và tăng cường sức khỏe.
+        </span>
+        <a href="javascript:void(0);" id="toggle-btn4" onclick="toggleText4()">Xem thêm</a>
+      </p>
+      <label>Số Lượng: </label>
+      <span>
+        <input type="number" min="0" max="100" value="0" size="3">
+        <button>Đặt hàng</button>
+      </span>
+    </article>
+
+    <article class="product">
+      <h2>Sữa Chua Vị Dâu Tây</h2>
+      <img src="images/sanpham/strawberry.jpg" alt="Sữa chua Dâu Tây" width="250">
+      <p>
+        Dâu tây là một loài cây thân thảo có thân ngắn và các chiếc lá mọc gần với nhau. LÁ<br>
+        có nhiều gai, bề mặt lá có nhiều lông tơ và kích thước lá có thể khác nhau ở từng <br>
+        giống.
+        <span id="more-text5" style="display:none;">
+          Ngoài ra, còn giúp tiêu hóa tốt và tăng cường sức khỏe.
+        </span>
+        <a href="javascript:void(0);" id="toggle-btn5" onclick="toggleText5()">Xem thêm</a>
+      </p>
+      <label>Số Lượng: </label>
+      <span>
+        <input type="number" min="0" max="100" value="0" size="3">
+        <button>Đặt hàng</button>
+      </span>
+    </article>
+
+    <article class="product">
+      <h2>Sữa Chua Vị Việt Quất</h2>
+      <img src="images/sanpham/blueberry.jpg" alt="Sữa chua Việt Quất" width="250">
+      <p>
+        Quả việt quất chứa các dưỡng chất tốt cho sức khỏe như chất xơ, kali, folate<br>
+        vitamin C và vitamin B6 (những chất hổ trợ tốt chó sức khỏe của tim).
+        <span id="more-text6" style="display:none;">
+          Ngoài ra, còn giúp tiêu hóa tốt và tăng cường sức khỏe.
+        </span>
+        <a href="javascript:void(0);" id="toggle-btn6" onclick="toggleText6()">Xem thêm</a>
+      </p>
+      <label>Số Lượng: </label>
+      <span>
+        <input type="number" min="0" max="100" value="0" size="3">
+        <button>Đặt hàng</button>
+      </span>
+    </article>
+
+    <h1>Sản Phẩm Trái Cây</h1>
+
+    <article class="product">
+      <h2>Sữa Chua Vị Bưởi</h2>
+      <img src="images/sanpham/grapes.jpg" alt="Sữa chua Bưởi" width="250">
+      <p>
+        Bưởi là một loại quả thuộc chỉ Cam chanh có nguồn gốc từ Đông Nam Á. Bưởi<br>
+        tiếng Anh gọi là Pometo, tuy nhiên nhiều từ điển ở Việt Nam lại dịch thành<br>
+        grapefruit.
+        <span id="more-text7" style="display:none;">
+          Ngoài ra, còn giúp tiêu hóa tốt và tăng cường sức khỏe.
+        </span>
+        <a href="javascript:void(0);" id="toggle-btn7" onclick="toggleText7()">Xem thêm</a>
+      </p>
+      <label>Số Lượng: </label>
+      <span>
+        <input type="number" min="0" max="100" value="0" size="3">
+        <button>Đặt hàng</button>
+      </span>
+    </article>
+
+    <article class="product">
+      <h2>Sữa Chua Vị Táo Xanh</h2>
+      <img src="images/sanpham/green-apple.jpg" alt="Sữa chua Táo Xanh" width="250">
+      <p>
+        Táo xanh có hàm lượng chất xơ cao giúp tăng cường quá trình trao đổi chất của cơ<br>
+        thể. Bên cạnh đó, chất xơ còn giúp quá trình giải độc gan và hệ tiêu hóa.
+        <span id="more-text8" style="display:none;">
+          Ngoài ra, còn giúp tiêu hóa tốt và tăng cường sức khỏe.
+        </span>
+        <a href="javascript:void(0);" id="toggle-btn8" onclick="toggleText8()">Xem thêm</a>
+      </p>
+      <label>Số Lượng: </label>
+      <span>
+        <input type="number" min="0" max="100" value="0" size="3">
+        <button>Đặt hàng</button>
+      </span>
+    </article>
+
+    <article class="product">
+      <h2>Sữa Chua Vị Dứa</h2>
+      <img src="images/sanpham/pineapple.jpg" alt="Sữa chua Dứa" width="250">
+      <p>
+        Dứa có các tên gọi khác nhau như là khóm, thơm, khớm, gai hoặc huyền nương. Đây là<br>
+        một loại quả nhiệt đới. Dứa là cây bản địa của các nước Nam Mỹ.
+        <span id="more-text9" style="display:none;">
+          Ngoài ra, còn giúp tiêu hóa tốt và tăng cường sức khỏe.
+        </span>
+        <a href="javascript:void(0);" id="toggle-btn9" onclick="toggleText9()">Xem thêm</a>
+      </p>
+      <label>Số Lượng: </label>
+      <span>
+        <input type="number" min="0" max="100" value="0" size="3">
+        <button>Đặt hàng</button>
+      </span>
+    </article>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2025 Bản quyền thuộc về FreeezeVN
+      <a href="https://facebook.com">Facebook</a> 
+      <a href="https://twitter.com">Twitter</a> 
+      <a href="https://pinterest.com">Pinterest</a>  
+      <a href="#logo">Về đầu trang ↑</a>
+    </p>
+  </footer>
+
+  <script>
+    function toggleText() {
+      var moreText = document.getElementById("more-text");
+      var btn = document.getElementById("toggle-btn");
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerText = "Thu gọn";
+      } else {
+        moreText.style.display = "none";
+        btn.innerText = "Xem thêm";
+      }
+    }
+
+    function toggleText2() {
+      var moreText = document.getElementById("more-text2");
+      var btn = document.getElementById("toggle-btn2");
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerText = "Thu gọn";
+      } else {
+        moreText.style.display = "none";
+        btn.innerText = "Xem thêm";
+      }
+    }
+
+    function toggleText3() {
+      var moreText = document.getElementById("more-text3");
+      var btn = document.getElementById("toggle-btn3");
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerText = "Thu gọn";
+      } else {
+        moreText.style.display = "none";
+        btn.innerText = "Xem thêm";
+      }
+    }
+
+    function toggleText4() {
+      var moreText = document.getElementById("more-text4");
+      var btn = document.getElementById("toggle-btn4");
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerText = "Thu gọn";
+      } else {
+        moreText.style.display = "none";
+        btn.innerText = "Xem thêm";
+      }
+    }
+
+    function toggleText5() {
+      var moreText = document.getElementById("more-text5");
+      var btn = document.getElementById("toggle-btn5");
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerText = "Thu gọn";
+      } else {
+        moreText.style.display = "none";
+        btn.innerText = "Xem thêm";
+      }
+    }
+
+    function toggleText6() {
+      var moreText = document.getElementById("more-text6");
+      var btn = document.getElementById("toggle-btn6");
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerText = "Thu gọn";
+      } else {
+        moreText.style.display = "none";
+        btn.innerText = "Xem thêm";
+      }
+    }
+
+    function toggleText7() {
+      var moreText = document.getElementById("more-text7");
+      var btn = document.getElementById("toggle-btn7");
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerText = "Thu gọn";
+      } else {
+        moreText.style.display = "none";
+        btn.innerText = "Xem thêm";
+      }
+    }
+
+    function toggleText8() {
+      var moreText = document.getElementById("more-text8");
+      var btn = document.getElementById("toggle-btn8");
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerText = "Thu gọn";
+      } else {
+        moreText.style.display = "none";
+        btn.innerText = "Xem thêm";
+      }
+    }
+
+    function toggleText9() {
+      var moreText = document.getElementById("more-text9");
+      var btn = document.getElementById("toggle-btn9");
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerText = "Thu gọn";
+      } else {
+        moreText.style.display = "none";
+        btn.innerText = "Xem thêm";
+      }
+    }
+     
+  </script>
+    
+
+</body>
+</html>
+
